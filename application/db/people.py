@@ -23,5 +23,5 @@ class Employee:
         employee: Any
         for employee in all_employees:
             full_list.append(Employee(employee))
-        print('\nВыполнен метод класса get_employees(), модуль people.py')
+        print('\nВыполнен метод класса Employee.get_employees(), модуль people.py')
         return full_list
